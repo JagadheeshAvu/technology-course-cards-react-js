@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.bg-container {
+  background-color: #f4faff;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  margin: 50px;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-name {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  color: #171f46;
+}
+.title-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #171f46;
+  font-weight: 50;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
